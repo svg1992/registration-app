@@ -1,0 +1,101 @@
+
+  .no-suggestions {
+    color: #999;
+    padding: 0.5rem;
+  }
+  
+  .suggestions {
+    border: 1px solid #999;
+    border-top-width: 0;
+    list-style: none;
+    margin-top: 0;
+    max-height: 143px;
+    overflow-y: auto;
+    padding-left: 0;
+    width: calc(300px + 1rem);
+  }
+  
+  .suggestions li {
+    padding: 0.5rem;
+  }
+  
+  .suggestion-active,
+  .suggestions li:hover {
+    background-color: #e8f3f0;
+    color: #080807;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .suggestions li:not(:last-of-type) {
+    border-bottom: 1px solid #999;
+  }
+  
+
+  .Personalform-container,
+  .Contactform-container,
+  .ReviewForm {
+    max-width: 450px;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transform:translate(0px, 50px);
+    background-color: #fff;
+  }
+  .Contactform-container h3,
+  .ReviewForm h3{
+    margin: 10px 0;
+  }
+  .Personalform-field input[type="text"],
+  .Personalform-field input[type="number"],
+  .Contactform-field input[type="email"],
+  .Contactform-field input[type="number"],
+  .inputForm input {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    width: 330px;
+  }
+  .Personalform-field,
+  .Contactform-field,
+  .inputForm{
+    margin-bottom: 10px;
+  }
+  .Personalform-field label,
+  .Contactform-field label,
+  .inputForm label{
+    width: 100px;
+    display: inline-block;
+  }
+  .Personalform-field span{
+    display: inline-block;
+    width: 100px;
+  }
+  
+  .inputForm div{
+    display: inline-block;
+  }
+  .back-next{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0; 
+  }
+  .next{
+    justify-content: end;
+  }
+  .back-next button{
+    padding: 5px 10px;
+  }
+  .ReviewForm-data{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-bottom: none;
+  }
+  .ReviewForm-data tbody tr td{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+  }
+  .ReviewForm-data tbody tr td:first-child{
+    font-weight: bold;
+    border-right: 1px solid #ccc;
+    width: 160px;
+  }
